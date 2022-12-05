@@ -1,6 +1,0 @@
-module CsvSqlDriver {
-	requires java.sql;
-	requires com.google.api.client.http.apache.v2;
-	//requires org.json;
-	provides java.sql.Driver with org.example.CsvDriver;
-}
